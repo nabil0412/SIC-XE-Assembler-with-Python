@@ -1,0 +1,8 @@
+Label		Instruction
+SUM 		START 0000
+		LITLD A,=X'05'
+		+LDB #0
+		LITSB B,=X'01'
+		LITLD X,=X'A1'
+		LITCMP S,=X'1F02'
+		END SUM	

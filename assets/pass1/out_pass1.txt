@@ -1,0 +1,8 @@
+Location	Label		Instruction
+		SUM 		START 0000
+000000				LITLD A,=X'05'
+000004				+LDB #0
+000008				LITSB B,=X'01'
+00000C				LITLD X,=X'A1'
+000010				LITCMP S,=X'1F02'
+				END SUM	
